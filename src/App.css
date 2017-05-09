@@ -1,0 +1,10 @@
+.App {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1em 1fr;
+  grid-template-rows: 2fr 8fr 2fr;
+  grid-template-areas:
+  "Title Title Title"
+  "StoryList . StoryView"
+  "StoryList . OptionsBar";
+}
